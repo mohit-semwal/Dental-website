@@ -1,0 +1,322 @@
+.container{
+    /* border: 2px solid; */
+    width: 90%;
+    margin: 0 auto;
+}
+@media (min-width: 470px){
+    .doctor-card{
+        width: 22rem;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 575px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-part3{
+        padding: 80px;
+        }
+}
+
+@media (min-width: 625px){
+    .nav-logo h1{
+        font-size: 2rem;
+    }
+    .hamburger{
+        width: 3rem;
+        height: 3rem;
+    }
+    .hamburger-icon{
+        font-size: 2rem;
+    }
+    .close-icon{
+        font-size: 2rem;
+    }
+    .card{
+       margin: 0 auto;
+    }
+    /* .card-body{
+        width: 500px;
+    } */
+    .blog-card{
+        width: 25rem;
+        margin: 2rem auto;
+    }
+}
+
+@media (min-width: 768px){
+    .home-content{
+        display: flex;
+    }
+    .home-div1{
+        width: 50%;
+        padding-top: 50px;
+    }
+    .home-div2{
+        margin-top: unset;
+        width: 50%;
+        /* border: 1px solid; */
+    }
+    .home-textcontent h4{
+        font-size: 25px;
+    }
+    .home-textcontent h2{
+        font-size: 46px;
+        line-height: 52px;
+        margin-top: 30px;
+    }
+    .home-textcontent p{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .home-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-content {
+        margin-top: 50px;
+    }
+    .form-content form{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: unset;
+        /* padding: 0px; */
+    }
+    .form-content form input{
+        padding: 33px !important;
+        width: 100%;
+    }
+    .form-content form input::placeholder{
+        font-size: 16px !important;
+    }
+    .form-content form button{
+        padding: 28px !important;
+        width: 60%;
+        border-radius: 5px;
+        font-size: 1rem !important;
+    }
+    .cards-div{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .doctor-cards-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .doctor-card{
+        width: 19rem;
+    }  
+    .about-part3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: unset;
+        }
+        .about-part3-div1{
+            display: flex;
+            justify-content: center;
+        }
+        .about-part3-div1 img{
+            max-width: 80%;
+            padding-top: 5rem;
+        }
+        .about-part3-div2{
+            display: flex;
+            flex-direction: column;
+            justify-content:  center;
+        }
+        .about-part3-div2 p{
+            color: white;
+            font-size: 3rem;
+            font-weight: 600;
+           line-height: 55px;
+        }
+
+
+    .blog-card{
+        width: 22rem;
+    }
+    .blog-cards-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        gap: 10px;
+    }  
+    .copyright-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* gap: 20px; */
+        justify-content: space-between;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .hamburger{
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        list-style: none;
+        margin-right: 125px;
+    }
+    .nav-list .nav-link a{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .nav-list hr {
+        display: none;
+    }
+    .nav-btn{
+        display: flex;
+    }
+
+    .home-div1{
+        padding-top: 80px;
+    }
+    .home-textcontent h2{
+        font-size: 58px;
+        line-height: 65px;
+    }
+    .home-textcontent p{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .form-content form{
+        flex-direction: row;
+        justify-content: center;
+        gap: unset;
+        padding: 25px;
+    }
+    .form-content form input{
+        padding: 20px;
+    }
+    .form-content form input::placeholder{
+        font-size: 14px;
+    }
+    .form-content form button{
+        padding: 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .cards-div{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .card-container-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .card-container-img img{
+        width: 350px;
+        height: 400px;
+    }
+
+    /* about start */
+    .about-part1{
+        grid-template-columns:repeat(2,1fr);
+        gap: 100px;
+    }
+    .about-heading h4{
+        font-size: 1.5rem;
+    }
+    .about-heading p{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+    .about-para p{
+        font-size: 14px;
+        }
+        .doctor-cards-div{
+            grid-template-columns: repeat(3,1fr);
+        }
+        .doctor-card{
+            width: 16rem;
+        }
+        .about-part3-div2 p{
+            color: white;
+            font-size: 2.8rem;
+            font-weight: 600;
+           line-height: 55px;
+           padding-right: 130px;
+        }
+        .blog-cards-div{
+            grid-template-columns: repeat(3,1fr) ;
+        
+        } 
+        .blog-card{
+            width: 18rem;
+        }
+        .footer-container{
+            /* display: grid; */
+            grid-template-columns: repeat(4,1fr);
+            /* justify-content: space-between; */
+        }
+}
+
+
+@media (min-width: 1210px){
+    .nav-logo h1{
+        font-size: 3rem;
+    }
+    .nav-list{
+        margin-right: 155px;
+    }
+    .home-textcontent h2{
+        font-size: 75px;
+        line-height: 85px;
+    }
+    .home-textcontent p{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    /* .card-container-img img{
+        width: 350px; 
+         height: auto;
+    } */
+
+    .about-heading h4{
+        font-size: 2rem;
+    }
+    .about-heading p{
+        font-size: 3.6rem;
+        line-height: 65px;
+    }
+    .about-para p{
+        font-size: 19px;
+        }
+
+     .doctor-cards-div{
+            grid-template-columns: repeat(4,1fr);
+        }
+        .doctor-card{
+            width: 16rem;
+        }
+        .about-part3-div1 img{
+            max-width: 55%;
+            padding-top: 5rem;
+        }
+        .about-part3-div2 p{
+            color: white;
+            font-size: 3.5rem;
+            font-weight: 600;
+           line-height: 75px;
+           padding-right: 180px;
+        }
+        .blog-card{
+            width: 22rem;
+        }
+        .blog-cards-div{
+            grid-template-columns: repeat(3,1fr) ;
+            gap: 0;
+        } 
+}
