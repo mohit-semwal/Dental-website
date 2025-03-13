@@ -1,3 +1,3 @@
 # Dental-Website
 # Live Demo
-You can view the live version of this website here: [My Website](https://mohit-semwal.github.io/Dental-website/)
+Click here to watch live version of this website: [Dental website](https://mohit-semwal.github.io/Dental-website/)
